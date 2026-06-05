@@ -1,24 +1,21 @@
 const hre = require("hardhat");
 
 async function main() {
+  const Crowdfunding = await hre.ethers.getContractFactory(
+    "Crowdfunding"
+  );
 
-    const Crowdfunding =
-        await hre.ethers.getContractFactory(
-            "Crowdfunding"
-        );
+  const crowdfunding = await Crowdfunding.deploy();
 
-    const crowdfunding =
-        await Crowdfunding.deploy();
+  await crowdfunding.waitForDeployment();
 
-    await crowdfunding.waitForDeployment();
-
-    console.log(
-        "Contract deployed to:",
-        await crowdfunding.getAddress()
-    );
+  console.log(
+    "Contract deployed to:",
+    await crowdfunding.getAddress()
+  );
 }
 
 main().catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
+  console.error(error);
+  process.exitCode = 1;
 });
