@@ -14,6 +14,17 @@ Every campaign and donation is recorded on-chain, ensuring transparency, immutab
 
 ---
 
+# ScreenSort of the UI and Working
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 180731" src="https://github.com/user-attachments/assets/00ac47df-3537-461f-a3ea-b74646a0b16e" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 180740" src="https://github.com/user-attachments/assets/4a837eee-95d6-4638-a8e4-037af77818d2" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 181520" src="https://github.com/user-attachments/assets/500c8412-9602-4791-9375-a0725f9ddf7d" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 181527" src="https://github.com/user-attachments/assets/0f209d7a-ecfb-4fd0-bf70-8fd8e732b73d" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 181556" src="https://github.com/user-attachments/assets/d341c176-9ce5-4e41-ae5b-2ba98ef284b0" />
+
+
+
+
+
 # 🎯 Objectives
 
 The goal of this project was to:
@@ -378,8 +389,6 @@ This project helped me understand:
 
 ---
 
-# ScreenSort of the UI and Working
-  <img width="1920" height="1080" alt="Screenshot 2026-06-05 180731" src="https://github.com/user-attachments/assets/eb68a543-8279-4133-95c0-9a6422774820" />
 
 
 # 🚀 Conclusion
