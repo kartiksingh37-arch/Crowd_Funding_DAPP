@@ -28,8 +28,10 @@ const CreateCampaignModal = ({ isOpen, onClose }) => {
       await tx.wait();
 
       alert("Campaign Created Successfully!");
-     window.location.reload();
+
       onClose();
+
+      window.location.reload();
     } catch (err) {
       console.log(err);
     }
@@ -75,8 +77,12 @@ const CreateCampaignModal = ({ isOpen, onClose }) => {
             Cancel
           </button>
 
-          <button   onClick={createCampaign} 
-          className="bg-purple-600 px-4 py-2 rounded">Create</button>
+          <button
+            onClick={createCampaign}
+            className="bg-purple-600 px-4 py-2 rounded"
+          >
+            Create
+          </button>
         </div>
       </div>
     </div>
